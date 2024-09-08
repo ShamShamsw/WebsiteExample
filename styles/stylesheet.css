@@ -1,0 +1,199 @@
+/* This CSS includes all of the code for the website main page */
+
+/* Resetting default browser styles */
+.backgroundMain {
+    background-image: url('../pictures/earth.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%; /* Full width */
+    height: 75vh; /* 75% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Centered content */
+.content h1, .content h2, .content h3 {
+    margin: 10px 0;
+}
+
+    /* Start of styling for the button under the headings */
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+    /* End of styling for the button under the heading*/
+
+    /* Start of styling for the section with the headings */
+    /* First heading */
+    .top {
+        font-family: 'Comic Sans MS', sans-serif;
+        font-size: 34px;
+        color: rgb(140, 222, 255);
+        line-height: 1.5;
+    }
+
+    /* Second (middle) heading */
+    .middle {
+        font-family: 'Catchy Mager', sans-serif;
+        font-size: 72px;
+        color: rgb(140, 222, 255);
+        line-height: 1.2;
+    }
+
+    /* Third heading */
+    .bottom {
+        font-family: 'Comic Sans MS', sans-serif;
+        font-size: 48px;
+        color: rgb(140, 222, 255);
+        line-height: 1.4;
+    }
+
+    /* End of styling for the section with the headings */
+
+        /* Start of styling for the section with the text */
+        /* Style for main content after the section */
+        main {
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* End of styling for the section with the text */
+
+            /* Start of styling for the two-column section */
+            /* Two-column section */
+
+            .two-column-section {
+                display: flex; /* Use Flexbox to create side-by-side columns */
+                justify-content: space-between; /* Ensure space between the columns */
+                align-items: center; /* Center vertically */
+                height: 100vh; /* Full viewport height */
+                padding: 20px; /* Padding around the section */
+            }
+
+            /* Left column: image container */
+            .stars {
+                flex: 1; /* Take up half the width */
+                display: flex;
+                justify-content: center; /* Center image horizontally */
+                align-items: center; /* Center image vertically */
+                padding: 20px; /* Add white space around the image */
+                background-color: white; /* Add a white background to make space around the image */
+                border: 1px solid #ddd; /* Optional: Add a light border around the image */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+            }
+
+            /* Ensure the image doesn't stretch too much */
+            .stars img {
+                max-width: 80%; /* Limit image size within the container */
+                height: auto; /* Maintain aspect ratio */
+            }
+
+            /* Right column: text content */
+            .text-content {
+                flex: 1; /* Take up half the width */
+                padding-left: 40px; /* Add padding to create space between the image and text */
+                color: black; /* Text color */
+                text-align: left; /* Ensure text is left-aligned */
+            }
+
+            .text-content h2 {
+                font-size: 36px; /* Heading font size */
+                margin-bottom: 20px; /* Space below the heading */
+            }
+
+            .text-content p {
+                font-size: 18px; /* Paragraph font size */
+                line-height: 1.6; /* Line height for readability */
+            }
+
+            /* End of styling for the two-column section */
+
+/* Start of Officer */
+/* Officer section container */
+.officer-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+/* Section header styling */
+.officer-section h1 {
+    font-size: 36px;
+    margin-bottom: 40px; /* Space below the main header */
+    color: #333;
+}
+
+/* Container for the officer images */
+.officer-images {
+    display: flex;
+    justify-content: center; /* Space between the images */
+    align-items: center;
+    gap : 310px; /* Space between the images */
+    margin-bottom: 40px; /* Space below the image row */
+}
+
+/* Individual officer image */
+.officer img {
+    width: 150px; /* Set size for the images */
+    height: 150px;
+    border-radius: 50%; /* Make the images circular */
+    object-fit: cover; /* Ensures the image fits well inside the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
+}
+
+/* Container for the officer details */
+.officer-details {
+    display: flex;
+    justify-content: space-between; /* Space between the boxes */
+    align-items: center;
+}
+
+/* Individual officer detail box */
+.officer-box {
+    width: 30%; /* Each box takes 30% of the container width */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    text-align: center;
+}
+
+/* Officer name (small heading) */
+.officer-box h3 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px; /* Space below the name */
+}
+
+/* Officer position (larger heading) */
+.officer-box h2 {
+    font-size: 24px;
+    margin: 20px 0; /* Space above and below the position */
+    color: #333;
+}
+
+.officer img {
+    border: 5px solid #333; /* Add a border around the box */
+}
+
+.officer-box {
+    border: 2px solid #333; /* Add a border around the box */
+}
+
+
+/* End of Officer */
