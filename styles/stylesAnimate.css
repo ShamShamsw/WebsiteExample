@@ -1,6 +1,9 @@
 /* This CSS includes all of the code for the website main page */
 
 /* Resetting default browser styles */
+/* This section of code will acomplish adding a background image that covers the entirety of the code section.*/
+/* The background image is a picture of the earth. Which will be centered use 100% of the width of the section as */
+/* well as 75% of the viewport height. The content will be centered and the text will be white and use Flexbox to center the contents. */
 .backgroundMain {
     background-image: url('../pictures/earth.jpg');
     background-size: cover;
@@ -14,12 +17,22 @@
     color: white;
 }
 
+
 /* Centered content */
+/* This section of code will center the content of the page. */
+/* notive that the margin is set to 10px on the top and bottom of the content. */
 .content h1, .content h2, .content h3 {
     margin: 10px 0;
 }
 
+
 /* Start of styling for the button under the headings */
+/* This section of code will style the button that is under the headings. */
+/* The button will be displayed as an inline block and will have a margin of 20px on the top. */
+/* The padding will be 10px on the top and bottom and 20px on the left and right. */
+/* The background color will be a shade of blue and the text will be white. */
+/* The text will not have any decoration and the border will be rounded. */
+/* The font size will be 16px and there will be a transition effect on the background color. */
 .btn {
     display: inline-block;
     margin-top: 20px;
@@ -32,14 +45,18 @@
     transition: background-color 0.3s ease;
 }
 
+/* This section of code will change the background color of the button when the mouse hovers over it. */
 .btn:hover {
     background-color: #0056b3;
 }
-
 /* End of styling for the button under the heading*/
+
 
 /* Start of styling for the section with the headings */
 /* First heading */
+/* This section of code will style the first heading. */
+/* The font family will be 'Comic Sans MS' and the font size will be 34px. */
+/* The color will be a shade of blue and the line height will be 1.5. */
 .top {
     font-family: 'Comic Sans MS', sans-serif;
     font-size: 34px;
@@ -47,6 +64,9 @@
     line-height: 1.5;
 }
 
+/*This section of code will style the second heading. */
+/* The font family will be 'Catchy Mager' and the font size will be 72px. */
+/* The color will be a shade of blue and the line height will be 1.2. */
 /* Second (middle) heading */
 .middle {
     font-family: 'Catchy Mager', sans-serif;
@@ -54,7 +74,9 @@
     color: rgb(140, 222, 255);
     line-height: 1.2;
 }
-
+/* This section of code will style the third heading. */
+/* The font family will be 'Comic Sans MS' and the font size will be 48px. */
+/* The color will be a shade of blue and the line height will be 1.4. */
 /* Third heading */
 .bottom {
     font-family: 'Comic Sans MS', sans-serif;
@@ -62,8 +84,8 @@
     color: rgb(140, 222, 255);
     line-height: 1.4;
 }
-
 /* End of styling for the section with the headings */
+
 
 /* Start of styling for the section with the text */
 /* Style for main content after the section */
@@ -201,7 +223,7 @@ main {
 .animate-up {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out;
 }
 
 /* When elements come into view, they will smoothly animate */
